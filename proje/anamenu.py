@@ -4,6 +4,7 @@ import hesaplamalar.dersler
 import hesaplamalar.para
 import hesaplamalar.sn
 import hesaplamalar.cizim
+import hesaplamalar.pacman
 def anamenu():
     print("╔═══════════════════════════════════════════╗")
     print("║                  Ana Menü                 ║")
@@ -13,7 +14,7 @@ def anamenu():
     print("║        4:para kurları                     ║")
     print("║        5:sınav notları                    ║")
     print("║        6:çizim                            ║")
-    print("║        7:                                 ║")
+    print("║        7:pacman                           ║")
     print("║        8:                                 ║")
     print("║        9:                                 ║")
     print("║        10:                                ║")
@@ -45,7 +46,7 @@ def anamenu():
         input()
         anamenu()
     if secim == "7":
-        hesaplamalar.yas.ymenu()
+        hesaplamalar.pacman.pacmenu()
         input()
         anamenu()
     if secim == "8":
