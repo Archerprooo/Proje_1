@@ -1,10 +1,12 @@
 import hesaplamalar.pacman
+import hesaplamalar.snake
+import hesaplamalar.connect
 def oyunmenu():
     print("╔═══════════════════════════════════════════╗")
     print("║                  Ana Menü                 ║")
     print("║        1:Pacman                           ║")
-    print("║        2:                                 ║")
-    print("║        3:                                 ║")
+    print("║        2:Snake                            ║")
+    print("║        3:Connect                          ║")
     print("║        4:                                 ║")
     print("╚═══════════════════════════════════════════╝")
     secim = (input(" tercihini gir "))
@@ -13,11 +15,11 @@ def oyunmenu():
         input()
         oyunmenu()
     if secim == "2":
-   
+        hesaplamalar.snake.smenu()
         input()
         oyunmenu()
     if secim == "3":
-        
+        hesaplamalar.connect.cmenu() 
         input()
         oyunmenu()
     if secim == "4":
