@@ -24,6 +24,6 @@ def oyunmenu():
         input()
         oyunmenu()
     if secim == "4":
-        hesaplamalar.connect.omenu() 
+        hesaplamalar.ping_pong.omenu() 
         input()
         oyunmenu()
