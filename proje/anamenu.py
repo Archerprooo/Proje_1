@@ -1,18 +1,19 @@
 import hesaplamalar.hesap
 import hesaplamalar.yas
-import hesaplamalar.dersmenu
+import hesaplamalar.dersler
+import hesaplamalar.para
 def anamenu():
     print("╔═══════════════════════════════════════════╗")
     print("║                  Ana Menü                 ║")
     print("║        1:Hesap Makinesi                   ║")
     print("║        2:yaş hesabı                       ║")
     print("║        3:dersler                          ║")
-    print("║        4:içecekler                        ║")
-    print("║        5:yiyecekler                       ║")
-    print("║        6:bilgisayar markaları             ║")
-    print("║        7:para birimleri                   ║")
-    print("║        8:sınav notları                    ║")
-    print("║        9:yararlı bitkiler                 ║")
+    print("║        4:para kurları                     ║")
+    print("║        5:sınav notları                    ║")
+    print("║        6:                                 ║")
+    print("║        7:                                 ║")
+    print("║        8:                                 ║")
+    print("║        9:                                 ║")
     print("║        10:                                ║")
     print("╚═══════════════════════════════════════════╝")
     secim = (input(" tercihini gir "))
@@ -21,9 +22,9 @@ def anamenu():
     if secim == "2":
             hesaplamalar.yas.ymenu()
     if secim == "3":
-            hesaplamalar.dersler.dersmenu()
+            hesaplamalar.dersler.dersmenu ()
     if secim == "4":
-            hesaplamalar.yas.ymenu()
+            hesaplamalar.para.pmenu()
     if secim == "5":
             hesaplamalar.yas.ymenu()
     if secim == "6":
