@@ -52,15 +52,18 @@ def cizmenu():
         turtle.forward (j)
         turtle.right (80) 
     if a == 6: 
+        n = int(input("çeşitkenar üçgeninizin 1. açısını girin: "))
+        o = int(input("çeşitkenar üçgeninizin 2. açısını girin: "))
+        p = int(input("çeşitkenar üçgeninizin 3. açsını girin: "))
         k = int(input("çeşitkenar üçgeninizin 1. kenarını girin: "))
         l = int(input("çeşitkenar üçgeninizin 2. kenarını girin: "))
         m = int(input("çeşitkenar üçgeninizin 3. kenarını girin: "))
         turtle.forward (k)
-        turtle.right (40)
+        turtle.right (n)
         turtle.forward (l)
-        turtle.right (60)
+        turtle.right (o)
         turtle.forward (m)
-        turtle.right (80) 
+        turtle.right (p) 
 
 
         
