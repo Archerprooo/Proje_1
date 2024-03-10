@@ -2,6 +2,7 @@ import hesaplamalar.hesap
 import hesaplamalar.yas
 import hesaplamalar.dersler
 import hesaplamalar.para
+import hesaplamalar.sn
 def anamenu():
     print("╔═══════════════════════════════════════════╗")
     print("║                  Ana Menü                 ║")
@@ -35,7 +36,7 @@ def anamenu():
         input()
         anamenu()
     if secim == "5":
-        hesaplamalar.yas.ymenu()
+        hesaplamalar.sn.nmenu()
         input()
         anamenu()
     if secim == "6":
