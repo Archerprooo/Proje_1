@@ -8,7 +8,7 @@ def oyunmenu():
     print("║        1:Pacman                           ║")
     print("║        2:Snake                            ║")
     print("║        3:Connect                          ║")
-    print("║        4:                                 ║")
+    print("║        4:ping pong                        ║")
     print("╚═══════════════════════════════════════════╝")
     secim = (input(" tercihini gir "))
     if secim == "1":
