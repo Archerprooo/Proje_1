@@ -42,7 +42,7 @@ def cizmenu():
         turtle.right (60)
         turtle.forward (f)
         turtle.right (60)  
-    if a == 4: 
+    if a == 5: 
         g = int(input("ikizkenar üçgeninizin ilk kenarını girin: "))
         j = int(input("ikizkenar üçgeninizin ikinci kenarını girin: "))
         turtle.forward (g)
@@ -51,7 +51,7 @@ def cizmenu():
         turtle.right (50)
         turtle.forward (j)
         turtle.right (80) 
-    if a == 4: 
+    if a == 6: 
         k = int(input("çeşitkenar üçgeninizin 1. kenarını girin: "))
         l = int(input("çeşitkenar üçgeninizin 2. kenarını girin: "))
         m = int(input("çeşitkenar üçgeninizin 3. kenarını girin: "))
