@@ -1,6 +1,7 @@
 import hesaplamalar.pacman
 import hesaplamalar.snake
 import hesaplamalar.connect
+import hesaplamalar.ping_pong
 def oyunmenu():
     print("╔═══════════════════════════════════════════╗")
     print("║                  Ana Menü                 ║")
@@ -23,6 +24,6 @@ def oyunmenu():
         input()
         oyunmenu()
     if secim == "4":
-       
+        hesaplamalar.connect.pppmenu() 
         input()
         oyunmenu()
