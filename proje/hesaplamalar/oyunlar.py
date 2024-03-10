@@ -9,7 +9,7 @@ def oyunmenu():
     print("╚═══════════════════════════════════════════╝")
     secim = (input(" tercihini gir "))
     if secim == "1":
-        hesaplamalar.hesap.hmmenu()
+        hesaplamalar.pacman.pacmenu()
         input()
         oyunmenu()
     if secim == "2":
