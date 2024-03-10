@@ -19,23 +19,44 @@ def anamenu():
     secim = (input(" tercihini gir "))
     if secim == "1":
         hesaplamalar.hesap.hmmenu()
+        input()
+        anamenu()
     if secim == "2":
-            hesaplamalar.yas.ymenu()
+        hesaplamalar.yas.ymenu()
+        input()
+        anamenu()
     if secim == "3":
-            hesaplamalar.dersler.dersmenu ()
+        hesaplamalar.dersler.dersmenu ()
+        input()
+        anamenu()
     if secim == "4":
-            hesaplamalar.para.pmenu()
+        hesaplamalar.para.pmenu()
+        input()
+        input()
+        anamenu()
     if secim == "5":
-            hesaplamalar.yas.ymenu()
+        hesaplamalar.yas.ymenu()
+        input()
+        anamenu()
     if secim == "6":
-            hesaplamalar.yas.ymenu()
+        hesaplamalar.yas.ymenu()
+        input()
+        anamenu()
     if secim == "7":
-            hesaplamalar.yas.ymenu()
+        hesaplamalar.yas.ymenu()
+        input()
+        anamenu()
     if secim == "8":
-            hesaplamalar.yas.ymenu()   
+        hesaplamalar.yas.ymenu()
+        input()
+        anamenu()   
     if secim == "9":
-            hesaplamalar.yas.ymenu()  
+        hesaplamalar.yas.ymenu()  
+        input()
+        anamenu()
     if secim == "10":
-            hesaplamalar.yas.ymenu()   
+        hesaplamalar.yas.ymenu()
+        input()
+        anamenu()   
     input()
 anamenu()
