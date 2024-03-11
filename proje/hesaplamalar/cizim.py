@@ -38,11 +38,11 @@ def cizmenu():
     if a == 4: 
         f = int(input("eşkenar üçgeninizin kenarını girin: "))
         turtle.forward (f)
-        turtle.right (60)
+        turtle.right (120)
         turtle.forward (f)
-        turtle.right (60)
+        turtle.right (120)
         turtle.forward (f)
-        turtle.right (60)  
+        turtle.right (120)  
     if a == 5: 
         g = int(input("ikizkenar üçgeninizin ilk kenarını girin: "))
         j = int(input("ikizkenar üçgeninizin ikinci kenarını girin: "))
