@@ -4,7 +4,7 @@ import hesaplamalar.connect
 import hesaplamalar.ping_pong
 def oyunmenu():
     print("╔═══════════════════════════════════════════╗")
-    print("║                  Ana Menü                 ║")
+    print("║                  Oyunlar                  ║")
     print("║        1:Pacman                           ║")
     print("║        2:Snake                            ║")
     print("║        3:Connect                          ║")
