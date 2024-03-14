@@ -104,18 +104,13 @@ def pacmenu ():
                     path.up()
                     path.goto(x + 10, y + 10)
                     path.dot(2, 'white')
-
+#gg#
 
     def move():
         """Move pacman and all ghosts."""
         writer.undo()
         writer.write(state['score'])
-
-        clear()
-
-        if valid(pacman + aim):
-            pacman.move(aim)
-
+        
         index = offset(pacman)
 
         if tiles[index] == 1:
