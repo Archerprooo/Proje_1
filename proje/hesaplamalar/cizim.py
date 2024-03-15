@@ -26,7 +26,7 @@ def cizmenu():
     if a == 3: 
         d = int(input("Diktörtgenin ilk kenarını  girin: "))
         e = int(input("Diktörtgenin ikinci kenarını  girin: "))
-
+#a#
         turtle.forward (d)
         turtle.right (90)
         turtle.forward (e)
