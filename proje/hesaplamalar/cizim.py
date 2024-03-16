@@ -58,10 +58,10 @@ def cizmenu():
         m = int(input("çeşitkenar üçgeninizin 3. kenarını girin: "))
         turtle.forward (k)
         turtle.right (90)
-        turtle.forward (150)
-        turtle.right (o)
-        turtle.forward (120)
-        turtle.right (p) 
+        turtle.forward (l)
+        turtle.right (150)
+        turtle.forward (m)
+        turtle.right (120) 
 
 
         
