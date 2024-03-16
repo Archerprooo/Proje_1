@@ -1,0 +1,9 @@
+{
+    "workbench.iconTheme": "vs-seti",
+    "workbench.colorCustomizations": 
+      "titleBar.activeBackground", "#2F4F4F"
+    "editor.tokenColorCustomizations": 
+      "comments": "#FF0000",
+    
+  }
+  
