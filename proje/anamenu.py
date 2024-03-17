@@ -5,6 +5,8 @@ import hesaplamalar.para
 import hesaplamalar.sn
 import hesaplamalar.cizim
 import hesaplamalar.oyunlar
+import turtle
+import datetime
 def anamenu():
     print("╔═══════════════════════════════════════════╗")
     print("║                  Ana Menü                 ║")
