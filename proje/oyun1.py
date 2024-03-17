@@ -19,7 +19,7 @@ for xx in range(hak):
     elif tahmin  > tutulan :
         print ("tahminin büyük")
         puan -= 100//hak
-        print (f"puann{puan} oldu")
+        print (f"puanın{puan} oldu")
     elif tahmin  < tutulan :
         print ("tahminin küçük") 
         puan -= 100//hak
