@@ -104,7 +104,7 @@ def pacmenu ():
                     path.up()
                     path.goto(x + 10, y + 10)
                     path.dot(2, 'white')
-#gg#
+#g#
 
     def move():
         """Move pacman and all ghosts."""
