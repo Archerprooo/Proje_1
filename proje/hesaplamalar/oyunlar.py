@@ -14,16 +14,12 @@ def oyunmenu():
     if secim == "1":
         hesaplamalar.pacman.pacmenu()
         input()
-        oyunmenu()
     if secim == "2":
         hesaplamalar.snake.smenu()
         input()
-        oyunmenu()
     if secim == "3":
         hesaplamalar.connect.cmenu() 
         input()
-        oyunmenu()
     if secim == "4":
         hesaplamalar.ping_pong.omenu() 
         input()
-        oyunmenu()
