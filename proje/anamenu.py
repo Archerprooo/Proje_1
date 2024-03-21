@@ -5,6 +5,9 @@ import hesaplamalar.para
 import hesaplamalar.sn
 import hesaplamalar.cizim
 import hesaplamalar.oyunlar
+import hesaplamalar.tvs
+import hesaplamalar.ct
+import hesaplamalar.rast
 import turtle
 import datetime
 def anamenu():
@@ -17,9 +20,9 @@ def anamenu():
     print("║        5:sınav notları                    ║")
     print("║        6:çizim                            ║")
     print("║        7:oyunlar                          ║")
-    print("║        8:                                 ║")
-    print("║        9:                                 ║")
-    print("║        10:                                ║")
+    print("║        8:tarih ve saat                    ║")
+    print("║        9:çarpım tablosu                   ║")
+    print("║        10:rastgele sayı                   ║")
     print("╚═══════════════════════════════════════════╝")
     secim = (input(" tercihini gir "))
     if secim == "1":
@@ -52,15 +55,15 @@ def anamenu():
         input()
         anamenu()
     if secim == "8":
-        hesaplamalar.yas.ymenu()
+        hesaplamalar.tvs.tsv()
         input()
         anamenu()   
     if secim == "9":
-        hesaplamalar.yas.ymenu()  
+        hesaplamalar.ct.ct()  
         input()
         anamenu()
     if secim == "10":
-        hesaplamalar.yas.ymenu()
+        hesaplamalar.rast.rast()
         input()
         anamenu()   
     input()
