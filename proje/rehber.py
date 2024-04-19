@@ -11,7 +11,7 @@ def menu():
     print("║  5-Sil                    ║")
     print("╚═══════════════════════════╝")
 
-    secim = input("seciminizi giriniz : ")
+    secim = input("seçiminizi giriniz : ")
     if secim=="1":
         listele()
         kisiEkle()
