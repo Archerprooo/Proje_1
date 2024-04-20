@@ -1,1 +1,0 @@
-{'ad': 'ahmet mehmet', 'numara': '1'},{'ad': 'ertan öner', 'numara': '1254'},{'ad': 'bahar marasalı', 'numara': '5697'},
