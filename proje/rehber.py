@@ -13,7 +13,6 @@ def menu():
 
     secim = input("seçiminizi giriniz : ")
     if secim=="1":
-        listele()
         kisiEkle()
         listele()
         menu()
