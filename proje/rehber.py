@@ -15,7 +15,6 @@ def menu():
     secim = input("seçiminizi giriniz : ")
 
     if secim=="1":
-        listele()
         kisiEkle()
         listele()
     menu()
@@ -57,7 +56,7 @@ def listele():
         for a in cevirilen:
             print (a)
     except :
-        print("Bir hata oluştu")          
+        print("kişiler bulunamadı")          
 def ara():
     with open("rehber.txt", "r") as dosya:
         okunan = dosya.read()

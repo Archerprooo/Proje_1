@@ -1,1 +1,4 @@
+<<<<<<< HEAD
 {'ad': 'ahmet mehmet', 'numara': '1'},{'ad': 'ertan öner', 'numara': '1254'},{'ad': 'bahar marasalý', 'numara': '5697'},{'ad': 'mustafa mert', 'numara': '7414'},
+=======
+>>>>>>> 67811f8c060f1b311a65acc8457b928b7ca66f46
