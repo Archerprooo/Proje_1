@@ -1,5 +1,6 @@
 import re,json,ast
 
+
 def menu():
     print("╔═══════════════════════════╗")
     print("║  REHBER UYGULAMASI        ║")
@@ -12,25 +13,28 @@ def menu():
     print("╚═══════════════════════════╝")
 
     secim = input("seçiminizi giriniz : ")
+
     if secim=="1":
         listele()
         kisiEkle()
         listele()
-        menu()
+    menu()
     if secim=="2":
-        listele()
-        menu()
+        listele() 
+    menu()
     if secim=="3":
         ara()
-        menu()
+    menu()
     if secim=="4":
         duzelt()
         listele()
-        menu()
+    menu()
     if secim=="5":
         sil()
         listele()
-        menu()
+    menu()
+
+
 def kisiEkle():
     dosya = open("rehber.txt","a")
     print("╔═════════════╗")
@@ -101,5 +105,7 @@ def sil():
         for a in cevirilen:
             if a["ad"]!=aranan:
                 dosya.write(f"{str(a)},")
+
+
 
 menu()
